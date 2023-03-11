@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Cryptosearchimg from '../public/projects/cryptocoinsearch.jpeg';
 import FSAtravelimg from '../public/projects/FSAtravel.jpeg';
 import Sliceimg from '../public/projects/Slice.jpeg';
+import Daygradeimg from '../public/projects/daygrade.jpeg';
 
 const Projects = () => {
   const projectList = [
@@ -24,6 +25,12 @@ const Projects = () => {
       name: 'Slice Task Management',
       tech: 'NextJS',
       url: '/slice',
+    },
+    {
+      project: Daygradeimg,
+      name: 'Daygrade',
+      tech: 'ReactJS',
+      url: '/daygrade',
     },
   ];
 
