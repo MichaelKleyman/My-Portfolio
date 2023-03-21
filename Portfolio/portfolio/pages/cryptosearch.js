@@ -35,7 +35,7 @@ const cryptosearch = () => {
           </p>
           <h2 className='pb-4'>Overview</h2>
           <p>
-            Cryptogram is a simple cryptocurrency search app, where you can see
+            Cryptogram is a cryptocurrency search app, where you can see
             the details of any crypto currency that is on the market today.
             Using a precise API from coin gecko, Crpyotgram is able to fetch
             realtime market data for any coin such as trending coins, the

@@ -43,7 +43,18 @@ const slice = () => {
           </p>
           <h2 className='pb-4'>Overview</h2>
           <p>
-            Daygrade is fullstack progressive web application, with secure user authentication catered specifically to the end user, to collect and visualize data overtime. This application is a progressive mental health tool and a framework for growth. It aims to help individuals improve their strive for daily improvement in their lives, by consistently tracking their activities throughout the day, and giving each day a score from a scale of 1-10. This system assesses how well the individual managed their time and energy throughout the day, including their ability to prioritize self-care and maintain a healthy work-life balance. With a dynamic and responsive user interface, it has cross-platform capability, fast load time, and offline accessibility. 
+            Daygrade is fullstack progressive web application, with secure user
+            authentication catered specifically to the end user, to collect and
+            visualize data overtime. This application is a progressive mental
+            health tool and a framework for growth. It aims to help individuals
+            improve their strive for daily improvement in their lives, by
+            consistently tracking their activities throughout the day, and
+            giving each day a score from a scale of 1-10. This system assesses
+            how well the individual managed their time and energy throughout the
+            day, including their ability to prioritize self-care and maintain a
+            healthy work-life balance. With a dynamic and responsive user
+            interface, it has cross-platform capability, fast load time, and
+            offline accessibility.
           </p>
           <a
             href='https://www.youtube.com/watch?v=3Gzwr1o4UZ4'
