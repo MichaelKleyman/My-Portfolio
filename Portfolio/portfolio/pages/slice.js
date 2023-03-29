@@ -53,6 +53,13 @@ const slice = () => {
             incomplete tasks as well as a notification system and an invite-only
             system for ecosystems.
           </p>
+          <div className='py-3'>
+            <p className='text-blue-600 uppercase tracking-wide'>
+              Demo Account
+            </p>
+            <p>Email: test@gmail.com</p>
+            <p>Password: 123456</p>
+          </div>
           <a
             href='https://youtu.be/GRtXewbt4jQ'
             target='_blank'

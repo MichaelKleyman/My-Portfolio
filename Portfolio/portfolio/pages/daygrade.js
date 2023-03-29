@@ -56,6 +56,13 @@ const slice = () => {
             interface, it has cross-platform capability, fast load time, and
             offline accessibility.
           </p>
+          <div className='py-3'>
+            <p className='text-blue-600 uppercase tracking-wide'>
+              Demo Account
+            </p>
+            <p>Email: michaelkleyman0725@gmail.com</p>
+            <p>Password: 123456</p>
+          </div>
           <a
             href='https://www.youtube.com/watch?v=3Gzwr1o4UZ4'
             target='_blank'
