@@ -5,6 +5,7 @@ import Cryptosearchimg from '../public/projects/cryptocoinsearch.jpeg';
 import FSAtravelimg from '../public/projects/FSAtravel.jpeg';
 import Sliceimg from '../public/projects/Slice.jpeg';
 import Daygradeimg from '../public/projects/daygrade.jpeg';
+import Cosmosimg from '../public/projects/cosmos.jpg';
 
 const Projects = () => {
   const projectList = [
@@ -31,6 +32,12 @@ const Projects = () => {
       name: 'Daygrade',
       tech: 'ReactJS',
       url: '/daygrade',
+    },
+    {
+      project: Cosmosimg,
+      name: 'Learn The Cosmos',
+      tech: 'ReactJS/NodeJS',
+      url: '/cosmos',
     },
   ];
 
