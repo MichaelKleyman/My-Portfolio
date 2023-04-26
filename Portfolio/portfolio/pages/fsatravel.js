@@ -55,6 +55,12 @@ const fsatravel = () => {
             the list of available flights, allowing users to add flights to cart
             and go ahead to checkout.
           </p>
+          <div className='py-3'>
+            <p className='text-blue-600 uppercase tracking-wide text-sm'>
+              Please expect a 30 second load time when clicking the website link
+              due to deployment service being used.
+            </p>
+          </div>
           <a href='/' target='_blank' rel='noreferrer'>
             <button className='px-8 py-2 mt-4 mr-8' onClick={demoLoading}>
               Demo
