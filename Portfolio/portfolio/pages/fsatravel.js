@@ -61,6 +61,13 @@ const fsatravel = () => {
               due to deployment service being used.
             </p>
           </div>
+          <div className='py-3'>
+            <p className='text-blue-600 uppercase tracking-wide'>
+              Demo Account (admin)
+            </p>
+            <p>Username: cody</p>
+            <p>Password: 123</p>
+          </div>
           <a href='/' target='_blank' rel='noreferrer'>
             <button className='px-8 py-2 mt-4 mr-8' onClick={demoLoading}>
               Demo
