@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Javascriptimg from '../public/images/javascript.png';
+import Typescriptimg from '../public/images/typescript.png';
 import Pythontimg from '../public/images/python.png';
 import Htmlimg from '../public/images/html.png';
 import Cssimg from '../public/images/css.png';
@@ -15,6 +16,7 @@ import Nodeimg from '../public/images/node.png';
 
 const IndividualSkills = () => {
   const skills = [
+    { img: Typescriptimg, name: 'Typescript' },
     { img: Javascriptimg, name: 'javascript' },
     { img: Pythontimg, name: 'python' },
     { img: Htmlimg, name: 'html' },
