@@ -1,12 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { Link } from 'react-scroll/modules';
 
 const MainPage = () => {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
+    });
+
+    const hideElements = document.querySelectorAll('.hide');
+    hideElements.forEach((elem) => observer.observe(elem));
+  });
+
   return (
     <div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+      <div className='hide max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest'>Connect with me</p>
           <h1>
