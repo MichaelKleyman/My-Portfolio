@@ -36,3 +36,42 @@ html {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
   }
 }
+
+.hide {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+@media (prefers-reduced-motion) {
+  .hide {
+    transition: none;
+  }
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+/* .fact:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.fact:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.bullet:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.bullet:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.bullet:nth-child(4) {
+  transition-delay: 600ms;
+} */

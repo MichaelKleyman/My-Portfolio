@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-scroll/modules';
 import Image from 'next/image';
 import Profileimg from '../public/images/Profilepic.png';
 
 const About = () => {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
+    });
+
+    const hideElements = document.querySelectorAll('.hide');
+    hideElements.forEach((elem) => observer.observe(elem));
+  });
+
   return (
     <div id='about' className='w-full md:h-screen flex items-center py-16'>
       <div className='p-8 max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
