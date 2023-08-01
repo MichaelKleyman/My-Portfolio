@@ -1,21 +1,21 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-scroll/modules';
-import Image from 'next/image';
-import Profileimg from '../public/images/Profilepic.png';
+import React, { useEffect } from "react";
+import { Link } from "react-scroll/modules";
+import Image from "next/image";
+import Profileimg from "../public/images/Profilepic.png";
 
 const About = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('show');
+          entry.target.classList.add("show");
         } else {
-          entry.target.classList.remove('show');
+          entry.target.classList.remove("show");
         }
       });
     });
 
-    const hideElements = document.querySelectorAll('.hide');
+    const hideElements = document.querySelectorAll(".hide");
     hideElements.forEach((elem) => observer.observe(elem));
   });
 
@@ -35,17 +35,22 @@ const About = () => {
             allowed me to grow and challenge myself in many ways. I started
             learning Python to grasp core concepts and data structures while
             working on minor projects. Eventually I transitioned into
-            Javascript, HTML, and CSS to expand my knowledge on web development.{' '}
+            Javascript, HTML, and CSS to expand my knowledge on web development.{" "}
           </p>
           <p className='py-2'>
             Being fascinated by the intricacy and power of programming and
             building out projects, I decided to push myself more and enroll into
-            an immersive fullstack web development bootcamp with{' '}
-            <span className='text-blue-600'>Fullstack Academy. </span>This
-            allowed me to dive deep into the frontend side and backend side of
-            applications, and most importantly teaching me how to properly learn
-            frameworks and programming tools in order to apply them to complex
-            projects.{' '}
+            an immersive fullstack web development bootcamp with{" "}
+            <span className='text-blue-600'>Fullstack Academy. </span>
+            Fast forward to my current role, where I am a{" "}
+            <span className='text-blue-600'>
+              {" "}
+              Software Engineer at Hilo Health{" "}
+            </span>
+            , an emerging Healthcare Startup centered around Weight Loss. This
+            is where my learning is accelerating rapidly and allowing me to
+            express my general interest in working about new technologies and
+            coming up with solutions to unsolved problems
           </p>
           <Link
             to='projects'
