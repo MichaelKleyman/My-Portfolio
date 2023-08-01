@@ -1,19 +1,19 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect } from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { Link } from 'react-scroll/modules';
+import React, { useEffect } from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { Link } from "react-scroll/modules";
 
 const MainPage = () => {
   const appearOptions = {
-    rootMargin: '0px 0px -150px 0px',
+    rootMargin: "0px 0px -150px 0px",
   };
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('show');
+          entry.target.classList.add("show");
         } else {
           // entry.target.classList.remove('show');
           return;
@@ -21,7 +21,7 @@ const MainPage = () => {
       });
     }, appearOptions);
 
-    const hideElements = document.querySelectorAll('.hide');
+    const hideElements = document.querySelectorAll(".hide");
     hideElements.forEach((elem) => observer.observe(elem));
   }, []);
 
@@ -36,12 +36,22 @@ const MainPage = () => {
             Hi, Im <span className='text-blue-600 '>Mike</span>
           </h1>
           <h1 className='hide py-2'>A Fullstack Software Engineer</h1>
-          <p className='hide py-4 text-gray-600 max-w-[70%] m-auto'>
+          {/* <p className='hide py-4 text-gray-600 max-w-[70%] m-auto'>
             I&apos;m a Fullstack software engineer with experience in creating
             responsive web applications, while using my frontend and backend
             programming knowledge to ensure an optimal user experience. I enjoy
             the process of designing, developing, and maintaining web
             applications with a team of people.
+          </p> */}
+          <p className='hide py-4 text-gray-600 max-w-[70%] m-auto'>
+            I&apos;m a Fullstack software engineer bringing extensive experience
+            in developing scalable and efficient solutions for complex
+            challenges. With a strong focus on optimizing performance and
+            delivering high-quality products, I bring experience in
+            collaborating with cross-functional teams to drive innovation and
+            enhancing user experiences. I aim to tackle exciting technical
+            endeavors and make a real impact on the lives of billions of users
+            worldwide.
           </p>
           <div className='hide flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
