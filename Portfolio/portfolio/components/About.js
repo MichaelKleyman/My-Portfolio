@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useEffect } from "react";
 import { Link } from "react-scroll/modules";
 import Image from "next/image";
@@ -28,6 +29,13 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who Am I</h2>
           <p className='py-2'>
+            I'm a Software Engineer at an emerging Healthcare Startup called
+            Hilo Health, centered around Weight Loss. My responsibilities range
+            from maintaining and strengthening our backend infrastructure using
+            AWS and working with HIPAA compliant data storage, as well as
+            creating an engaging frontend user experience.
+          </p>
+          <p className='py-2'>
             I originally come from a healthcare background with a Bachelors
             degree from CUNY Hunter College, pursuing a career in sports
             Physical Therapy. My transition into tech was driven by lack of
@@ -36,13 +44,17 @@ const About = () => {
             learning Python to grasp core concepts and data structures while
             working on minor projects. Eventually I transitioned into
             Javascript, HTML, and CSS to expand my knowledge on web development.{" "}
-          </p>
-          <p className='py-2'>
             Being fascinated by the intricacy and power of programming and
             building out projects, I decided to push myself more and enroll into
             an immersive fullstack web development bootcamp with{" "}
-            <span className='text-blue-600'>Fullstack Academy. </span>
-            Fast forward to my current role, where I am a{" "}
+            <span className='text-blue-600'>Fullstack Academy. </span>I am a
+            problem solver through and through, and I strive to handle critical
+            technical situations calmly providing structure for investigation
+            and taking practical steps to identify & resolve the issue. My
+            learning is accelerating rapidly and allowing me to express my
+            general interest in working about new technologies and coming up
+            with solutions to unsolved problems.
+            {/* Fast forward to my current role, where I am a{" "}
             <span className='text-blue-600'>
               {" "}
               Software Engineer at Hilo Health{" "}
@@ -50,7 +62,7 @@ const About = () => {
             , an emerging Healthcare Startup centered around Weight Loss. This
             is where my learning is accelerating rapidly and allowing me to
             express my general interest in working about new technologies and
-            coming up with solutions to unsolved problems
+            coming up with solutions to unsolved problems */}
           </p>
           <Link
             to='projects'
