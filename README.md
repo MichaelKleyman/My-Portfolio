@@ -7,16 +7,24 @@ This is my portfolio, hosting my skills to date, as well as my most recent proje
 
 
 ## 🚀 About Me
-My name is Michael Kleyman, a skilled full-stack software engineer with excellent leadership and interpersonal abilities. With an extensive track record of designing and implementing software development pipelines and processes, I have improved my full-stack skills and maintained web applications in team settings. I have worked on diverse technical projects such as data visualization, productivity tracking, project management, and cryptocurrency search, utilizing various technologies including ReactJS, ReduxJS, NodeJS, and PostgreSQL. I'm continuously learning new technologies and frameworks to stay current with industry standards, and have a deep affinity for building reliable, high-throughput, lower latency solutions. Furthermore, I am driven by curiosity to explore new technologies and implement them in my work. With my experience in implementing and optimizing software development pipelines and processes, I am capable of devising efficient, scalable solutions.
+My name is Michael Kleyman, a skilled full-stack software engineer with excellent leadership and interpersonal abilities. With an extensive track record of designing and implementing software development pipelines and processes, I have improved my full-stack skills and maintained web applications in team settings. I have worked on diverse technical projects such as data visualization, productivity tracking, project management, and third-party integrations, utilizing various technologies including ReactJS, ReduxJS, NodeJS, Bun, and PostgreSQL. I'm continuously learning new technologies and frameworks to stay current with industry standards, and have a deep affinity for building reliable, high-throughput, lower latency solutions. Furthermore, I am driven by curiosity to explore new technologies and implement them in my work. With my experience in implementing and optimizing software development pipelines and processes, I am capable of devising efficient, scalable solutions.
 
 
 ## Tech Stack
 
-![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=ReactQuery&logoColor=white)
+
+![Material UI](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+
+![Kubernetes](https://img.shields.io/badge/kubernetes-326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React JS](	https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
