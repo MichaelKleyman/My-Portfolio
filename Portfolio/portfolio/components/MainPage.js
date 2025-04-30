@@ -35,16 +35,16 @@ const MainPage = () => {
           <h1 className='hide'>
             Hi, Im <span className='text-blue-600 '>Mike</span>
           </h1>
-          <h1 className='hide py-2'>A Fullstack Software Engineer</h1>
+          <h1 className='hide py-2'>A Software Engineer</h1>
           <p className='hide py-4 text-gray-600 max-w-[70%] m-auto'>
-            I&apos;m a Fullstack software engineer bringing extensive experience
+            I&apos;m a software engineer bringing extensive experience
             in developing scalable and efficient solutions for complex
             challenges. With a strong focus on optimizing performance and
             delivering high-quality products, I bring experience in
             collaborating with cross-functional teams to drive innovation and
             enhancing user experiences. I aim to tackle exciting technical
-            endeavors and make a real impact on the lives of billions of users
-            worldwide.
+            endeavors and make a real impact on users of projects I&apos;m a
+            part of.
           </p>
           <div className='hide flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

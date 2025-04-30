@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Javascriptimg from "../public/images/javascript.png";
 import Typescriptimg from "../public/images/typescript.png";
+import Dockerimg from "../public/images/docker.png";
+import k8simg from "../public/images/Kubernetes.png";
 import Pythontimg from "../public/images/python.png";
 import Htmlimg from "../public/images/html.png";
 import Cssimg from "../public/images/css.png";
@@ -18,13 +19,14 @@ import AWSimg from "../public/images/aws.png";
 const IndividualSkills = () => {
   const skills = [
     { img: Typescriptimg, name: "Typescript" },
-    { img: Javascriptimg, name: "javascript" },
-    { img: AWSimg, name: "AWS" },
+    { img: Reactjsimg, name: "reactJS" },
+    { img: Nextjsimg, name: "nextJS" },
     { img: Pythontimg, name: "python" },
     { img: Htmlimg, name: "html" },
     { img: Cssimg, name: "css" },
-    { img: Reactjsimg, name: "reactJS" },
-    { img: Nextjsimg, name: "nextJS" },
+    { img: AWSimg, name: "AWS" },
+    { img: Dockerimg, name: "docker" },
+    { img: k8simg, name: "kubernetes" },
     { img: Firebaseimg, name: "firebase" },
     { img: Tailwindimg, name: "tailwind" },
     { img: Reduximg, name: "redux" },
