@@ -15,10 +15,12 @@ import Postgresimg from "../public/images/postgres.png";
 import Sequelizeimg from "../public/images/sequelize.png";
 import Nodeimg from "../public/images/node.png";
 import AWSimg from "../public/images/aws.png";
+import tanstackquery from "../public/images/tanstack_query.png";
 
 const IndividualSkills = () => {
   const skills = [
     { img: Typescriptimg, name: "Typescript" },
+    { img: tanstackquery, name: "Tanstack Query" },
     { img: Reactjsimg, name: "reactJS" },
     { img: Nextjsimg, name: "nextJS" },
     { img: Pythontimg, name: "python" },
