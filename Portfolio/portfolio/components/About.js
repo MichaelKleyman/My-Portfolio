@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-scroll/modules";
 import Image from "next/image";
-import Profileimg from "../public/images/profilepic2.jpg";
+import Profileimg from "../public/images/profilepic.jpg";
 
 const About = () => {
   useEffect(() => {
